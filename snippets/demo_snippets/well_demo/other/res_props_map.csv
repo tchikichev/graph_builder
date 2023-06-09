@@ -1,0 +1,12 @@
+df,node,datacad,description,isNull
+startP,start,res_P,Давление,
+startT,start,res_T,Температура,
+start_Q_m3_day,start,res_Q_m3_day,Дебит в/из внешней среды,TRUE
+endP,end,res_P,Давление,
+endT,end,res_T,Температура,
+end_Q_m3_day,end,res_Q_m3_day,Дебит в/из внешней среды,TRUE
+res_watercut_percent,edge,res_watercut_percent,Обводненность,TRUE
+res_liquid_density_kg_m3,edge,res_liquid_density_kg_m3,Плотность жидкости,
+res_pump_power_watt,edge,res_pump_power_watt,Мощность насоса,TRUE
+X_kg_sec,edge,res_mass_flow_kg_sec,Массовый поток,
+velocity_m_sec,edge,res_velocity_m_sec,Скорость потока,TRUE

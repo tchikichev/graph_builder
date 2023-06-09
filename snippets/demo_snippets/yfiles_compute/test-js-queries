@@ -1,0 +1,14 @@
+let portOwner = graph.ports.find(port => port.tag.primitiveID === primitiveID).owner;
+let inEdges = graph.inEdgesAt(portOwner).filter(edge => edge.targetPort.tag.primitiveID === primitiveID).toArray()
+let inEdgesNoFilter = graph.inEdgesAt(portOwner).toArray()
+
+console.log(inEdgesNoFilter)
+
+if (inEdges.length < 1) {
+
+console.log(graph.inEdgesAt(portOwner).toArray()[0])
+eval (graph.inEdgesAt(portOwner).toArray()[0])
+}
+else {
+eval(inEdges[0].sourcePort.tag.primitiveID)
+}

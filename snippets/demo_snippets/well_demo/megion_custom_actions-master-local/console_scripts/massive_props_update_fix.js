@@ -1,0 +1,156 @@
+
+
+
+// props modification
+function fillIndexQueries({
+    nodes,
+    baseQuery, propsMapping
+}) {
+    nodes.toArray().forEach((node) => {
+        Object.entries(propsMapping).forEach(([propertyName, propertyBody]) => {
+            if (propertyName in node.tag.properties) {
+                const query = `
+let q = ${baseQuery}["${propertyBody}"];
++(q) !== NaN ? +(q) : q`;
+                node.tag.properties[propertyName].expression = query;
+            }
+        })
+    })
+}
+
+function buildIndexQuery({
+    DataLakeNodeID, DataLakeNodeQParam,
+    dfSearchCol, dfSearchKey
+}) {
+    return `${DataLakeNodeID}.${DataLakeNodeQParam}.filter(line => {return line[\"${dfSearchCol}\"] == this.${dfSearchKey}})[0]`;
+}
+
+
+
+
+
+let liveDash = Application.autocomplete.LiveDashPanel_2;
+
+let dataLakeNode = liveDash.masterGraph.nodes.find(
+    node => {return node.tag.primitiveName === "DataLakeNode"});
+// Object.entries(dataLakeNode.tag.properties)
+//     .filter(p => !p[0].startsWith("_") && p[0] !== "query")
+
+let propsMapping = Object.entries(dataLakeNode.tag.properties)
+    .filter(p => !p[0].startsWith("_") && p[0] !== "query").map(([key, val]) => {
+        let propertyBody = val.value;
+        let baseQuery = buildIndexQuery({
+        DataLakeNodeID: dataLakeNode.tag.primitiveID, // node we refer to
+        DataLakeNodeQParam: "query", // prop name in datalake node we refer to
+        dfSearchCol: "__well_num", //index col name
+        dfSearchKey: "node_id" // search by node prop
+    });
+        let query = `
+let q = ${baseQuery}["${propertyBody}"];
++(q) !== NaN ? +(q) : q`;
+        return [key, {
+    type: 'expression',
+    expression: query,
+  }]});
+// propsMapping
+
+const addedProps = propsMapping;
+const addedPropsList = Object.keys(addedProps);
+
+
+const createProp = {
+  expression(expression = '') {
+    return {
+      expression,
+      type: 'expression',
+      input: {
+        component: 'textarea',
+      },
+      value: '',
+      status: 'new',
+    };
+  },
+  expressionSelect(expression = '', values = []) {
+    return {
+      expression,
+      type: 'expression',
+      input: {
+        values,
+        component: 'select',
+        type: 'const',
+      },
+      value: '',
+      status: 'new',
+    };
+  },
+  expressionSelectDS(expression = '', original_otl = '', columnName = '') {
+    return {
+      expression,
+      type: 'expression',
+      input: {
+        columnName,
+        values: [],
+        component: 'select',
+        type: 'datasource',
+        datasource: { original_otl },
+      },
+      value: '',
+      status: 'new',
+    };
+  },
+  expressionSwitch(exp = false) {
+    const expression = String(exp);
+    return {
+      expression,
+      type: 'expression',
+      input: {
+        component: 'switch',
+      },
+      value: '',
+      status: 'new',
+    };
+  },
+};
+
+
+
+const correctNodes = liveDashPanelMonitoring.masterGraph.nodes.filter(
+    node => node.tag.primitiveName === "oil_well"
+)
+
+correctNodes.forEach(node => {
+  addedPropsList.forEach(prop => {
+    const addedProp = addedProps[prop];
+    const { type, expression } = addedProp;
+
+    let args = [];
+
+    switch (type) {
+      case 'expression':
+        args = [expression];
+        break;
+      case 'expressionSelect':
+        args = [expression, addedProp.values];
+        break;
+      case 'expressionSelectDS':
+        args = [expression, addedProp.original_otl, addedProp.columnName];
+        break;
+      case 'expressionSwitch':
+        args = [expression];
+        break;
+    }
+
+    node.tag.properties[prop] = createProp[type](...args);
+  });
+
+//   deletedProps.forEach(prop => {
+//     delete node.tag.properties[prop];
+//   });
+
+//   editedPortsList.forEach(port => {
+//     const nodePort = node.ports.find(p => p.tag.primitiveName === port);
+//     if (nodePort) {
+//       nodePort.tag.properties.status.expression = editedPorts[port];
+//     }
+//   });
+});

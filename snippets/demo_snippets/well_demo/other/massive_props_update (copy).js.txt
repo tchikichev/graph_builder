@@ -1,0 +1,43 @@
+const propsMapping = {
+    "VolumeWater": 'neftWellopVolumeWater',
+    "frequency": 'neftWellopPumpCurrentFreqTm',
+    "Value": "value",
+    // "shtr_debit": 'neftWellopAverageLiquidDebit'
+};
+
+let liveDash = Application.autocomplete.LiveDashPanel_2
+let specialNodes = liveDash.masterGraph.nodes.filter(node => {
+    return "usage" in node.tag.properties
+});
+let dataLakeNode = specialNodes.find(node => "DataLakeNode" === node.tag.properties['usage'].value);
+let dlProps = dataLakeNode.tag.properties['propsMapping'].value;
+// for well nodes
+let oilWellNodes = liveDash.masterGraph.nodes.filter(node => "oil_well" === node.tag.primitiveName)
+
+// add props
+
+// DataLakeNode_39.query.filter(wn => {return wn["__well_num"] == this.node_id})[0][DataLakeNode_39.frequency]
+// DataLakeNode_39.query.filter(wn => {return wn["__well_num"] == this.node_id})[0][DataLakeNode_39.Value]
+// ...
+Object.entries(dlProps).forEach(([propertyName, propertyBody]) => {
+    oilWellNodes.forEach((node) => {
+        if (propertyName in node.tag.properties) {
+            let query = `${dataLakeNode.tag.primitiveID}.query.filter(wn => {return wn["__well_num"] == this.node_id})[0]["${propertyBody}"]`;
+            // console.log(query);
+            node.tag.properties[propertyName].expression = query;
+        }
+    })
+})
+
+Object.entries(liveDash.masterGraph.nodes).forEach(([propertyName, propertyBody]) => {
+    oilWellNodes.forEach((node) => {
+        if (propertyName in node.tag.properties) {
+            // console.log(node.tag.properties);
+            // console.log(propertyName);
+            // console.log(node.tag.properties[propertyName]);
+            let query = `${dataLakeNode.tag.primitiveID}.query.filter(wn => {return wn["__well_num"] == this.node_id})[0]["${propertyBody}"]`;
+            // console.log(query);
+            node.tag.properties[propertyName].expression = query;
+        }
+    })
+})
