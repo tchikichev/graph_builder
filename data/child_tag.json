@@ -1,0 +1,773 @@
+{
+    "eeSubstation_157": {
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"Салманов\"",
+            "status": "complete",
+            "value": "Салманов"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"ПС 35/6 кВ\"",
+            "status": "complete",
+            "value": "ПС 35/6 кВ"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeSubstation_156": {
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"Салманов\"",
+            "status": "complete",
+            "value": "Салманов"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"ПС 35/6 кВ\"",
+            "status": "complete",
+            "value": "ПС 35/6 кВ"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeSubstation_153": {
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"Норкин\"",
+            "status": "complete",
+            "value": "Норкин"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"ПС 35/6 кВ\"",
+            "status": "complete",
+            "value": "ПС 35/6 кВ"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeSubstation_152": {
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"Норкин\"",
+            "status": "complete",
+            "value": "Норкин"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"ПС 35/6 кВ\"",
+            "status": "complete",
+            "value": "ПС 35/6 кВ"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeRu_61": {
+        "Name": {
+            "type": "expression",
+            "expression": "\"ДНС-1\"",
+            "status": "complete",
+            "value": "ДНС-1"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"РУ 6 кВ\"",
+            "status": "complete",
+            "value": "РУ 6 кВ"
+        },
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "measured_kWh": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model_kWh": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeRu_64": {
+        "Name": {
+            "type": "expression",
+            "expression": "\"КНС-1\"",
+            "status": "complete",
+            "value": "КНС-1",
+            "input": {
+                "component": "textarea"
+            }
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"РУ 6 кВ\"",
+            "status": "complete",
+            "value": "РУ 6 кВ"
+        },
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "measured_kWh": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model_kWh": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeSubstation_151": {
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"Кузьмин\"",
+            "status": "complete",
+            "value": "Кузьмин"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"ПС 35/6 кВ\"",
+            "status": "complete",
+            "value": "ПС 35/6 кВ"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeSubstation_150": {
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"Кузьмин\"",
+            "status": "complete",
+            "value": "Кузьмин"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"ПС 35/6 кВ\"",
+            "status": "complete",
+            "value": "ПС 35/6 кВ"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeSubstation_155": {
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"Рынковой\"",
+            "status": "complete",
+            "value": "Рынковой"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"ПС 35/6 кВ\"",
+            "status": "complete",
+            "value": "ПС 35/6 кВ"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeSubstation_154": {
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"Рынковой\"",
+            "status": "complete",
+            "value": "Рынковой"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"ПС 35/6 кВ\"",
+            "status": "complete",
+            "value": "ПС 35/6 кВ"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeSubstation_149": {
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"Абазаров\"",
+            "status": "complete",
+            "value": "Абазаров"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"ПС 35/6 кВ\"",
+            "status": "complete",
+            "value": "ПС 35/6 кВ"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    },
+    "eeSubstation_148": {
+        "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "Name": {
+            "type": "expression",
+            "expression": "\"Абазаров\"",
+            "status": "complete",
+            "value": "Абазаров"
+        },
+        "object_type": {
+            "type": "expression",
+            "expression": "\"ПС 35/6 кВ\"",
+            "status": "complete",
+            "value": "ПС 35/6 кВ"
+        },
+        "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "current": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_in": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "kV_out": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        },
+        "power": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+        }
+    }
+}

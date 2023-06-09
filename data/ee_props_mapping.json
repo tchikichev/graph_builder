@@ -1,0 +1,300 @@
+{
+    "df_parse_regexes": {
+        "Дисп. наименование КТП(Н)": {
+            "ktpn_num": "[\\S ]*№(?P<num>\\d+)",
+            "ktpn_object_type": "(?P<object_type>:|КТПН|БКТП|КТП)",
+            "pad_num": "(?:КП|К)-(?P<pad_num>[\\d]{1,5})"
+        },
+        "Подразделение": {
+            "department_num": "с/р №(?P<num>\\d+)"
+        },
+        "СШ, №яч.": {
+            "section": "(?P<name>СШ 6 кВ №[\\d]+)",
+            "section,pad": "(?P<name>СШ 6 кВ №[\\d]+) яч.(?P<tap_num>[\\d]+)"
+        },
+        "Электроустановка": {
+            "trans_full": "(?P<type>:|ПС|КРУН|КРУ|ЗРУ|РУ)[ -]*(?P<nom>[\\d/]+)[ ]*кВ (?P<station>[\\w\\d\\- \\\".№]+)\\\"*([,\\W ]*(?P<trans>(Тр-р|ТР-р) (?P<tr_kv>[\\d/]+ кВ) (?P<tr_num>№[ ]*\\d+))|)[,\\S ]*"
+        },
+        "№ авт. (тип)": {
+            "num,type": "(?P<avt_num>[\\d]+)\\((?P<avt_model>[\\d\\D]+)\\)"
+        }
+    },
+    "primitiveName2props": {
+        "eeCableLine110Kv": "eeCableLine",
+        "eeCableLine35Kv": "eeCableLine",
+        "eeCableLine6Kv": "eeCableLine",
+        "eeEngine": "oil_well_ecn",
+        "eeIn": "eeIn",
+        "eeKTPN": "eeKTPN",
+        "eeKru": "eeRu",
+        "eeKrun": "eeRu",
+        "eeOut": "eeOut",
+        "eePowerLine": "eePowerLine",
+        "eeRu": "eeRu",
+        "eeStation": "eeStation",
+        "eeSubstation": "eeTransformer",
+        "eeTapConnector": "eeTapConnector",
+        "eeZru": "eeRu",
+        "esOut": "eeOut",
+        "oil_well": "oil_well_ecn"
+    },
+    "schema_default": {
+        "residual_template": {
+            "name": "out_name",
+            "object_type": "out_type"
+        },
+        "КТП(Н)": {
+            "I ном., А": "I ном., А",
+            "I ном.авт., А": "I ном.авт., А",
+            "S, кВА": "S, кВА",
+            "U_fact_V": "U факт. КТПН, В",
+            "description": "Дисп. наименование КТП(Н)",
+            "name": "Дисп. наименование КТП(Н)",
+            "zagruzka": "Загр. КТПН, %",
+            "Диап. рег. уст. МТЗ": "Диап. рег. уст. МТЗ",
+            "Диап. рег. уст. МТО": "Диап. рег. уст. МТО",
+            "Прогрузка АВ-0,4кВ": "Прогрузка АВ-0,4кВ",
+            "Рем. № КТПН": "Рем. № КТПН",
+            "Тип блока защит АВ-0,4кВ": "Тип блока защит АВ-0,4кВ",
+            "Уставка МТЗ": "Уставка МТЗ",
+            "Уставка МТО": "Уставка МТО",
+            "№ авт. (тип)": "№ авт. (тип)"
+        },
+        "Подразделение": {
+            "Подразделение": "Подразделение"
+        },
+        "Потребитель": {
+            "Qliq_m3ps": "Qжидк., куб.м./с",
+            "Qn_t": "Qн., тонн",
+            "U на СУ, В": "U на СУ, В",
+            "current_A": "I факт., А",
+            "name": "Потребитель",
+            "power_kW": "Р факт., кВт",
+            "state": "Состояние",
+            "type": "ЭЦН, ШГН",
+            "Время АПВ, мин.": "Время АПВ, мин.",
+            "Дата замера": "Дата замера",
+            "ПБВ Кол-во": "ПБВ Кол-во",
+            "ПБВ Полож.": "ПБВ Полож.",
+            "Селективность действия защит": "Селективность действия защит"
+        },
+        "СШ": {
+            "description": "СШ, №яч.",
+            "name": "section_name"
+        },
+        "Электроустановка": {
+            "description": "Электроустановка"
+        },
+        "яч": {
+            "description": "СШ, №яч."
+        }
+    },
+    "schema_ext": {
+        "residual_template": {
+            "name": "out_name",
+            "object_type": "out_type"
+        },
+        "КТП(Н)": {
+            "I ном., А": "I ном., А",
+            "I ном.авт., А": "I ном.авт., А",
+            "S, кВА": "S, кВА",
+            "U_fact_V": "U факт. КТПН, В",
+            "avt_model": "ktpn_avt_model",
+            "avt_num": "ktpn_avt_num",
+            "description": "Дисп. наименование КТП(Н)",
+            "name": "Дисп. наименование КТП(Н)",
+            "node_id": "ktpn_struuid",
+            "num": "ktpn_num",
+            "object_type": "ktpn_object_type",
+            "pad_num": "ktpn_pad_num",
+            "primitiveName": "ktpn_primitiveName",
+            "zagruzka": "Загр. КТПН, %",
+            "Диап. рег. уст. МТЗ": "Диап. рег. уст. МТЗ",
+            "Диап. рег. уст. МТО": "Диап. рег. уст. МТО",
+            "Прогрузка АВ-0,4кВ": "Прогрузка АВ-0,4кВ",
+            "Рем. № КТПН": "Рем. № КТПН",
+            "Тип блока защит АВ-0,4кВ": "Тип блока защит АВ-0,4кВ",
+            "Уставка МТЗ": "Уставка МТЗ",
+            "Уставка МТО": "Уставка МТО",
+            "№ авт. (тип)": "№ авт. (тип)"
+        },
+        "Подразделение": {
+            "Подразделение": "Подразделение"
+        },
+        "Потребитель": {
+            "Qliq_m3ps": "Qжидк., куб.м./с",
+            "Qn_t": "Qн., тонн",
+            "U на СУ, В": "U на СУ, В",
+            "current_A": "I факт., А",
+            "name": "well_format_name",
+            "node_id": "well_struuid",
+            "object_type": "well_object_type",
+            "pad_num": "pad_num",
+            "power_kW": "Р факт., кВт",
+            "primitiveName": "well_primitiveName",
+            "state": "Состояние",
+            "type": "ЭЦН, ШГН",
+            "Время АПВ, мин.": "Время АПВ, мин.",
+            "Дата замера": "Дата замера",
+            "ПБВ Кол-во": "ПБВ Кол-во",
+            "ПБВ Полож.": "ПБВ Полож.",
+            "Селективность действия защит": "Селективность действия защит"
+        },
+        "СШ": {
+            "description": "СШ, №яч.",
+            "name": "section_name",
+            "node_id": "section_struuid"
+        },
+        "Электроустановка": {
+            "description": "Электроустановка",
+            "nom": "eu_nom",
+            "num": "dept_num",
+            "object_type": "eu_object_type",
+            "primitiveName": "eu_primitiveName",
+            "station": "eu_station",
+            "tr_kv": "eu_tr_kv",
+            "tr_num": "eu_tr_num",
+            "trans": "eu_trans",
+            "type": "eu_type"
+        },
+        "яч": {
+            "description": "СШ, №яч.",
+            "name": "section_tap_name",
+            "node_id": "section_tap_struuid",
+            "tap_num": "section_tap_tap_num"
+        }
+    },
+    "templates": {
+        "eeCableLine": [
+            "Name",
+            "aliasName",
+            "description",
+            "length",
+            "object_type",
+            "node_name",
+            "zagruzka",
+            "current",
+            "kV"
+        ],
+        "eeIn": [
+            "Name",
+            "description",
+            "normallylnService",
+            "model",
+            "object_type",
+            "zagruzka",
+            "current",
+            "kV",
+            "power"
+        ],
+        "eeKTPN": [
+            "Name",
+            "description",
+            "normallylnService",
+            "model",
+            "object_type",
+            "zagruzka",
+            "current",
+            "kV_in",
+            "kV_out",
+            "power"
+        ],
+        "eeOut": [
+            "Name",
+            "description",
+            "normallylnService",
+            "model",
+            "object_type",
+            "zagruzka",
+            "current",
+            "kV",
+            "power"
+        ],
+        "eePowerLine": [
+            "Name",
+            "aliasName",
+            "description",
+            "length",
+            "object_type",
+            "node_name",
+            "zagruzka",
+            "current",
+            "kV"
+        ],
+        "eeRu": [
+            "Name",
+            "object_type",
+            "description",
+            "model",
+            "zagruzka",
+            "current",
+            "kV_in",
+            "kV_out",
+            "power",
+            "normallylnService",
+            "measured_kWh",
+            "model_kWh"
+        ],
+        "eeStation": [
+            "Name",
+            "description",
+            "normallylnService",
+            "model",
+            "object_type",
+            "zagruzka",
+            "current",
+            "kV",
+            "power"
+        ],
+        "eeTapConnector": [
+            "description",
+            "normallylnService",
+            "model",
+            "Name",
+            "object_type",
+            "zagruzka",
+            "current",
+            "kV",
+            "power"
+        ],
+        "eeTransformer": [
+            "Name",
+            "description",
+            "normallylnService",
+            "model",
+            "object_type",
+            "zagruzka",
+            "current",
+            "kV_in",
+            "kV_out",
+            "power"
+        ],
+        "eeZru": [
+            "description",
+            "normallylnService",
+            "model",
+            "Name",
+            "object_type",
+            "zagruzka",
+            "current",
+            "kV_in",
+            "kV_out",
+            "power"
+        ],
+        "oil_well_ecn": [
+            "Name",
+            "object_type",
+            "description",
+            "normallylnService",
+            "model",
+            "current",
+            "kV",
+            "power",
+            "ecnLoad",
+            "ecnFreq",
+            "measured_kWh",
+            "model_kWh",
+            "netFreq"
+        ]
+    }
+}

@@ -1,0 +1,176 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "properties": {
+                    "object_type": {
+                        "type": "expression",
+                        "expression": "\"oil_well\"",
+                        "status": "completed",
+                        "value": "oil_well"
+                    },
+                    "T": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "P": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Q_m3_day": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "query_res": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "\"580\"",
+                        "status": "completed",
+                        "value": "580"
+                    },
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "X": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Y": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Kind": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Value": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "IsSource": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "VolumeWater": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "perforation": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "pumpDepth": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "frequency": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "productivity": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "predict_mode": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "shtr_debit": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "K_pump": {
+                        "type": "expression",
+                        "expression": "",
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "description": {
+                        "type": "expression",
+                        "expression": "\"ЭЦН\"",
+                        "status": "completed",
+                        "value": "ЭЦН"
+                    },
+                    "pad": {
+                        "type": "expression",
+                        "expression": "\"КП-40\"",
+                        "status": "completed",
+                        "value": "КП-40"
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "primitiveID": "oil_well_111_inPort1",
+                        "location": {
+                            "x": 0.5,
+                            "y": 0
+                        }                    }
+                ],
+                "extensionName": "ExtensionOilPrimitives",
+                "primitiveName": "oil_well",
+                "primitiveID": "oil_well_111",
+                "nodeTitle": "$this.props.Name$",
+                "layout": {
+                    "x": 0,
+                    "y": 0,
+                    "height": 148,
+                    "width": 80
+                }
+            }
+        ],
+        "edges": [],
+        "groups": []
+    }
+}

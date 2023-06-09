@@ -1,0 +1,1577 @@
+{
+    "eeSubstation": {
+        "title": "eeSubstation",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_in": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_out": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "ioPortLow",
+                "type": [
+                    "IN",
+                    "OUT"
+                ],
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            },
+            {
+                "name": "ioPortTop",
+                "type": [
+                    "IN",
+                    "OUT"
+                ],
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            }
+        ]
+    },
+    "eeKru": {
+        "title": "eePad",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_in": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_out": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "outPort2",
+                "type": "OUT",
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eeStation": {
+        "title": "eeStation",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 76
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "outPort2",
+                "type": "OUT",
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eeCableLine110Kv": {
+        "title": "eeCableLine35Kv",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "aliasName": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "length": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "node_name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV": {
+                "type": "expression",
+                "expression": "110",
+                "status": "completed",
+                "value": "110"
+            }
+        },
+        "initPorts": [
+            {
+                "name": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "outPort2",
+                "type": "OUT",
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eeZru": {
+        "title": "eePad",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_in": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_out": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "outPort2",
+                "type": "OUT",
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eeEngine": {
+        "title": "eeEngine",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 76,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "inoutPort",
+                "type": [
+                    "IN",
+                    "OUT"
+                ],
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            }
+        ]
+    },
+    "eeIn": {
+        "title": "eeIn",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 90,
+            "width": 80
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "ioPortLow",
+                "type": [
+                    "IN",
+                    "OUT"
+                ],
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eePowerLine": {
+        "title": "eePowerLine",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "length": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "ioLeft",
+                "type": [
+                    "IN",
+                    "OUT"
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0.5
+                }
+            },
+            {
+                "name": "ioRight",
+                "type": [
+                    "IN",
+                    "OUT"
+                ],
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            },
+            {
+                "name": "ioTop",
+                "type": [
+                    "IN",
+                    "OUT"
+                ],
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "ioLow",
+                "type": [
+                    "IN",
+                    "OUT"
+                ],
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eeKrun": {
+        "title": "eeKrun",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_in": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_out": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "outPort2",
+                "type": "OUT",
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eeOut": {
+        "title": "eeOut",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 90,
+            "width": 80
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "ioPortTop",
+                "type": [
+                    "IN",
+                    "OUT"
+                ],
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            }
+        ]
+    },
+    "eeTapConnector": {
+        "title": "eeTapConnector",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 21,
+            "width": 21
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "ioPort",
+                "type": [
+                    "IN",
+                    "OUT"
+                ],
+                "position": {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eePad": {
+        "title": "eePad",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_in": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_out": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "outPort2",
+                "type": "OUT",
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eeRu": {
+        "title": "eeRu",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_in": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_out": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "measured_kWh": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model_kWh": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "outPort1",
+                "type": "OUT",
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eeKTPN": {
+        "title": "eeKTPN",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "normallylnService": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_in": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV_out": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "power": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "name": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "outPort2",
+                "type": "OUT",
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eeCableLine6Kv": {
+        "title": "eeCableLine6Kv",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "aliasName": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "length": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "node_name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV": {
+                "type": "expression",
+                "expression": "6",
+                "status": "completed",
+                "value": "6"
+            }
+        },
+        "initPorts": [
+            {
+                "primitiveName": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "primitiveName": "outPort2",
+                "type": "OUT",
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "eeCableLine35Kv": {
+        "title": "eeCableLine35Kv",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 91,
+            "width": 91
+        },
+        "image": "icon.svg",
+        "properties": {
+            "name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "aliasName": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "description": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "length": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "object_type": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "node_name": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "zagruzka": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "current": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "kV": {
+                "type": "expression",
+                "expression": "35",
+                "status": "completed",
+                "value": "35"
+            }
+        },
+        "initPorts": [
+            {
+                "primitiveName": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            },
+            {
+                "primitiveName": "outPort2",
+                "type": "OUT",
+                "position": {
+                    "x": 1,
+                    "y": 0.5
+                }
+            }
+        ]
+    },
+    "SimpleEdge": {
+        "bends": [],
+        "sourceNode": "",
+        "sourcePort": "",
+        "targetNode": "",
+        "targetPort": "",
+        "extensionName": "ExtensionCommonPrimitives",
+        "primitiveName": "SimpleEdge"
+    },
+    "ARRANGE_NODE": {
+        "properties": {
+            "testField": {
+                "expression": "",
+                "type": "expression",
+                "status": "complete",
+                "value": ""
+            },
+            "arrange": {
+                "type": "expression",
+                "expression": "function arrange_tree(){\nconst { default: yFiles } = Application.getDependence('yFiles');\ngraph.applyLayout(new yFiles.HierarchicLayout());\n' '\n};\n\nlet fl = this.run_once;\n\nif (fl===true){\n   arrange_tree();\n   console.log(\"rearrangeas tree\");\n}\n' '\n\n\n",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "type": "expression",
+                "expression": "\"ARRANGE TREE\"",
+                "status": "complete",
+                "value": ""
+            },
+            "run_once": {
+                "type": "expression",
+                "expression": "true",
+                "status": "complete",
+                "value": true
+            }
+        },
+        "initPorts": [
+            {
+                "primitiveName": "outPort1",
+                "type": "OUT",
+                "properties": {
+                    "status": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "primitiveID": "UncontrolledRichLabelNode01_1_outPort1",
+                "location": {
+                    "x": 234.5,
+                    "y": -2.96
+                }
+            }
+        ],
+        "title": "ARRANGE_TREE",
+        "extensionName": "ExtensionRiskPrimitives",
+        "primitiveName": "UncontrolledRichLabelNode01",
+        "layout": {
+            "x": 87.5,
+            "y": 0,
+            "height": 148,
+            "width": 294
+        },
+        "primitiveID": "UncontrolledRichLabelNode01_1",
+        "nodeTitle": "$this.props.Name$"
+    },
+    "oil_well": {
+        "properties": {
+            "object_type": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "T": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "P": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "Q_m3_day": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "query_res": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "Name": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "node_name": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "node_id": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "X": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "Y": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "Kind": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "Value": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "IsSource": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "VolumeWater": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "perforation": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "pumpDepth": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "model": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "frequency": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "productivity": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "predict_mode": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "shtr_debit": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            },
+            "K_pump": {
+                "type": "expression",
+                "expression": "",
+                "status": "complete",
+                "value": ""
+            }
+        },
+        "initPorts": [
+            {
+                "primitiveName": "inPort1",
+                "type": "IN",
+                "position": {
+                    "x": 0.5,
+                    "y": 0
+                }
+            }
+        ],
+        "extensionName": "ExtensionOilPrimitives",
+        "primitiveName": "oil_well",
+        "primitiveID": "oil_well_9383",
+        "nodeTitle": "$this.primitiveID$",
+        "layout": {
+            "x": 1990,
+            "y": 885.25,
+            "height": 148,
+            "width": 80
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "Подразделение": "с\\/р №10",
+    "Электроустановка": {
+        "object_type": "ПС 35\\/6 кВ",
+        "name": "\\"Абазаров\\"",
+        "tr": "ТР-р 35\\/6 кВ №1",
+        "model": "(укажите тип тр-ра; ; 0)"
+    },
+    "СШ, №яч.": {
+        // section == outPort1, outPort2
+        "section": "СШ 6 кВ №1",
+        // pad == junction point | switch node?????
+        "pad": "яч. 5"
+    },
+    //KTPN node
+    "Дисп. наименование КТП(Н)": {
+        "node_name": " КТПН 6\\/0,4кВ 1000кВА №2",
+        "padName": "КП-3",
+        "primitiveName": "eeKTPN",
+        // "alias_name": "КТПН 2",
+        "type": "КТПН"
+    },
+    "padName": "КП-3", // ->> pad == junction point
+}

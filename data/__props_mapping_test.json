@@ -1,0 +1,73 @@
+{
+    "residual_template": {
+        "name": "out_name",
+        "object_type": "out_type"
+    },
+    "КТП(Н)": {
+        "I ном., А": "I ном., А",
+        "I ном.авт., А": "I ном.авт., А",
+        "S, кВА": "S, кВА",
+        "U факт. КТПН, В": "U факт. КТПН, В",
+        "description": "Дисп. наименование КТП(Н)",
+        "name": "Дисп. наименование КТП(Н)",
+        "node_id": "ktpn_struuid",
+        "num": "ktpn_num",
+        "object_type": "ktpn_object_type",
+        "pad_num": "ktpn_pad_num",
+        "primitiveName": "ktpn_primitiveName",
+        "Диап. рег. уст. МТЗ": "Диап. рег. уст. МТЗ",
+        "Диап. рег. уст. МТО": "Диап. рег. уст. МТО",
+        "Загр. КТПН, %": "Загр. КТПН, %",
+        "Прогрузка АВ-0,4кВ": "Прогрузка АВ-0,4кВ",
+        "Рем. № КТПН": "Рем. № КТПН",
+        "Тип блока защит АВ-0, 4кВ": "Тип блока защит АВ-0,4кВ",
+        "Уставка МТЗ": "Уставка МТЗ",
+        "Уставка МТО": "Уставка МТО",
+        "№ авт. (тип)": "№ авт. (тип)"
+    },
+    "Подразделение": {
+        "Подразделение": "Подразделение"
+    },
+    "Потребитель": {
+        "Qliq_m3ps": "Qжидк., куб.м./с",
+        "Qn_t": "Qн., тонн",
+        "U на СУ, В": "U на СУ, В",
+        "current_A": "I факт., А",
+        "name": "well_format_name",
+        "node_id": "well_struuid",
+        "object_type": "well_object_type",
+        "pad_num": "pad_num",
+        "power_kW": "Р факт., кВт",
+        "primitiveName": "well_primitiveName",
+        "state": "Состояние",
+        "type": "ЭЦН, ШГН",
+        "Время АПВ, мин.": "Время АПВ, мин.",
+        "Дата замера": "Дата замера",
+        "ПБВ Кол-во": "ПБВ Кол-во",
+        "ПБВ Полож.": "ПБВ Полож.",
+        "Селективность действия защит": "Селективность действия защит"
+    },
+    "СШ": {
+        "description": "СШ, №яч.",
+        "name": "section_name",
+        "node_id": "section_struuid"
+    },
+    "Электроустановка": {
+        "description": "Электроустановка",
+        "nom": "eu_nom",
+        "num": "dept_num",
+        "object_type": "eu_object_type",
+        "primitiveName": "eu_primitiveName",
+        "station": "eu_station",
+        "tr_kv": "eu_tr_kv",
+        "tr_num": "eu_tr_num",
+        "trans": "eu_trans",
+        "type": "eu_type"
+    },
+    "яч": {
+        "description": "СШ, №яч.",
+        "name": "section_name",
+        "node_id": "section_tap_struuid",
+        "tap_num": "section_tap_num"
+    }
+}

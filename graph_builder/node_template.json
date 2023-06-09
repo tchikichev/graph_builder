@@ -1,0 +1,108 @@
+{
+    "emptyNode": {
+        "properties": {},
+        "initPorts": [
+            {
+                "primitiveName": "inPort1",
+                "type": "IN",
+                "properties": {
+                    "status": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "primitiveID": "",
+                "location": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            {
+                "primitiveName": "outPort1",
+                "type": "OUT",
+                "properties": {
+                    "status": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "primitiveID": "",
+                "location": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            }
+        ],
+        "extensionName": "",
+        "primitiveName": "",
+        "primitiveID": "",
+        "nodeTitle": "<p>test</p>",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 90,
+            "width": 90
+        }
+    },
+    "rawPrimitiveEmptyNode": {
+        "properties": {},
+        "initPorts": [
+            {
+                "primitiveName": "inPort1",
+                "type": "IN",
+                "properties": {
+                    "status": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "primitiveID": "",
+                "location": {
+                    "x": 0.0,
+                    "y": 0.5
+                }
+            },
+            {
+                "primitiveName": "outPort1",
+                "type": "OUT",
+                "properties": {
+                    "status": {
+                        "expression": "",
+                        "type": "expression",
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "primitiveID": "",
+                "location": {
+                    "x": 1.0,
+                    "y": 0.5
+                }
+            }
+        ],
+        "primitiveName": "",
+        "primitiveID": "",
+        "nodeTitle": "<p>test</p>",
+        "layout": {
+            "x": 0.0,
+            "y": 0.0,
+            "height": 90,
+            "width": 90
+        }
+    },
+    "SimpleEdge": {
+        "bends": [],
+        "sourceNode": "",
+        "sourcePort": "",
+        "targetNode": "",
+        "targetPort": "",
+        "extensionName": "ExtensionCommonPrimitives",
+        "primitiveName": "SimpleEdge"
+    }
+}

@@ -1,0 +1,262 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "properties": {
+                    "object_type": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "T": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "P": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Q_m3_day": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "query_res": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Name": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "node_name": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "node_id": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "X": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Y": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Kind": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "Value": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "IsSource": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "VolumeWater": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "perforation": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "pumpDepth": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "model": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "frequency": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "productivity": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "predict_mode": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "shtr_debit": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    },
+                    "K_pump": {
+                        "type": "expression",
+                        "expression": "",
+                        "input": {
+                            "component": "textarea"
+                        },
+                        "status": "complete",
+                        "value": ""
+                    }
+                },
+                "initPorts": [
+                    {
+                        "primitiveName": "outPort1",
+                        "type": "OUT",
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "input": {
+                                    "component": "textarea"
+                                },
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "oil_well_10163_outPort1",
+                        "location": {
+                            "x": 5554.5,
+                            "y": -19.125
+                        }
+                    },
+                    {
+                        "primitiveName": "inPort1",
+                        "type": "IN",
+                        "properties": {
+                            "status": {
+                                "type": "expression",
+                                "expression": "",
+                                "input": {
+                                    "component": "textarea"
+                                },
+                                "status": "complete",
+                                "value": ""
+                            }
+                        },
+                        "primitiveID": "oil_well_10163_inPort1",
+                        "location": {
+                            "x": 5554.5,
+                            "y": -167.125
+                        }
+                    }
+                ],
+                "extensionName": "ExtensionOilPrimitives",
+                "primitiveName": "oil_well",
+                "primitiveID": "oil_well_10163",
+                "nodeTitle": "$this.primitiveID$",
+                "layout": {
+                    "x": 5514.5,
+                    "y": -167.125,
+                    "height": 148,
+                    "width": 80
+                }
+            }
+        ],
+        "edges": [],
+        "groups": []
+    }
+}

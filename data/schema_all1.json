@@ -1,0 +1,761 @@
+
+
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "graph": {
+            "type": "object",
+            "properties": {
+                "nodes": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "primitiveID": {
+                                "type": "string"
+                            },
+                            "primitiveName": {
+                                "type": "string",
+                                "enum": [
+                                    "eePad",
+                                    "eeTapConnector",
+                                    "eeStation",
+                                    "eeCableLine6Kv",
+                                    "eeSubstation",
+                                    "UncontrolledRichLabelNode01"
+                                ]
+                            },
+                            "properties": {
+                                "type": "object",
+                                "properties": {
+                                    "node_name": {
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "expression"
+                                                ]
+                                            },
+                                            "expression": {
+                                                "type": "string"
+                                            },
+                                            "status": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "complete"
+                                                ]
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "input": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "component": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "textarea"
+                                                        ]
+                                                    }
+                                                },
+                                                "required": [
+                                                    "component"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "type",
+                                            "expression",
+                                            "status",
+                                            "value"
+                                        ]
+                                    },
+                                    "node_id": {
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "expression"
+                                                ]
+                                            },
+                                            "expression": {
+                                                "type": "string"
+                                            },
+                                            "status": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "complete"
+                                                ]
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "input": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "component": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "component"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "type",
+                                            "expression",
+                                            "status",
+                                            "value"
+                                        ]
+                                    },
+                                    "Name": {
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "expression"
+                                                ]
+                                            },
+                                            "expression": {
+                                                "type": "string"
+                                            },
+                                            "status": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "complete"
+                                                ]
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "input": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "component": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "textarea"
+                                                        ]
+                                                    }
+                                                },
+                                                "required": [
+                                                    "component"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "type",
+                                            "expression",
+                                            "status",
+                                            "value"
+                                        ]
+                                    },
+                                    "name": {
+                                        "type": "object",
+                                        "properties": {
+                                            "expression": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "",
+                                                    "\"ООО МУБР 2,5 мВ\"",
+                                                    "\"ПС 35/6 кВ \\\"Кузьмин\\\"\"",
+                                                    "\"ARRANGE TREE\""
+                                                ]
+                                            },
+                                            "type": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "expression"
+                                                ]
+                                            },
+                                            "status": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "complete"
+                                                ]
+                                            },
+                                            "value": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "",
+                                                    "ООО МУБР 2,5 мВ",
+                                                    "ПС 35/6 кВ \"Кузьмин\"",
+                                                    "ARRANGE TREE"
+                                                ]
+                                            },
+                                            "input": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "component": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "textarea"
+                                                        ]
+                                                    }
+                                                },
+                                                "required": [
+                                                    "component"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "expression",
+                                            "type",
+                                            "status",
+                                            "value"
+                                        ]
+                                    },
+                                    "aliasName": {
+                                        "type": "object",
+                                        "properties": {
+                                            "expression": {
+                                                "type": "string",
+                                                "enum": [
+                                                    ""
+                                                ]
+                                            },
+                                            "type": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "expression"
+                                                ]
+                                            },
+                                            "status": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "complete"
+                                                ]
+                                            },
+                                            "value": {
+                                                "type": "string",
+                                                "enum": [
+                                                    ""
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "expression",
+                                            "type",
+                                            "status",
+                                            "value"
+                                        ]
+                                    },
+                                    "description": {
+                                        "type": "object",
+                                        "properties": {
+                                            "expression": {
+                                                "type": "string",
+                                                "enum": [
+                                                    ""
+                                                ]
+                                            },
+                                            "type": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "expression"
+                                                ]
+                                            },
+                                            "status": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "complete"
+                                                ]
+                                            },
+                                            "value": {
+                                                "type": "string",
+                                                "enum": [
+                                                    ""
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "expression",
+                                            "type",
+                                            "status",
+                                            "value"
+                                        ]
+                                    },
+                                    "normallylnService": {
+                                        "type": "object",
+                                        "properties": {
+                                            "expression": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "expression",
+                                            "type",
+                                            "status",
+                                            "value"
+                                        ]
+                                    },
+                                    "length": {
+                                        "type": "object",
+                                        "properties": {
+                                            "expression": {
+                                                "type": "string",
+                                                "enum": [
+                                                    ""
+                                                ]
+                                            },
+                                            "type": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "expression"
+                                                ]
+                                            },
+                                            "status": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "complete"
+                                                ]
+                                            },
+                                            "value": {
+                                                "type": "string",
+                                                "enum": [
+                                                    ""
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "expression",
+                                            "type",
+                                            "status",
+                                            "value"
+                                        ]
+                                    },
+                                    "testField": {
+                                        "type": "object",
+                                        "properties": {
+                                            "expression": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "expression",
+                                            "type",
+                                            "status",
+                                            "value"
+                                        ]
+                                    },
+                                    "arrange": {
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "expression": {
+                                                "type": "string"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "input": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "component": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "component"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "type",
+                                            "expression",
+                                            "status",
+                                            "value",
+                                            "input"
+                                        ]
+                                    },
+                                    "run_once": {
+                                        "type": "object",
+                                        "properties": {
+                                            "type": {
+                                                "type": "string"
+                                            },
+                                            "expression": {
+                                                "type": "string"
+                                            },
+                                            "status": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "boolean"
+                                            },
+                                            "input": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "component": {
+                                                        "type": "string"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "component"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "type",
+                                            "expression",
+                                            "status",
+                                            "value",
+                                            "input"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nodeTitle": {
+                                "type": "string",
+                                "enum": [
+                                    "$this.props.Name$",
+                                    "$this.primitiveID$",
+                                    "$this.props.name$"
+                                ]
+                            },
+                            "image": {
+                                "type": "string",
+                                "enum": [
+                                    "/rawPrimitives/eePad/icon.svg",
+                                    "/rawPrimitives/eeTapConnector/icon.svg",
+                                    "/rawPrimitives/eeStation/icon.svg",
+                                    "/rawPrimitives/eeCableLine6Kv/icon.svg",
+                                    "/rawPrimitives/eeSubstation/icon.svg"
+                                ]
+                            },
+                            "initPorts": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "primitiveName": {
+                                            "type": "string",
+                                            "enum": [
+                                                "inPort1",
+                                                "outPort1",
+                                                "ioPort1",
+                                                "outPort22",
+                                                "inPort11"
+                                            ]
+                                        },
+                                        "type": {
+                                            "type": [
+                                                "array",
+                                                "string"
+                                            ],
+                                            "items": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "IN",
+                                                    "OUT"
+                                                ]
+                                            }
+                                        },
+                                        "properties": {
+                                            "type": "object",
+                                            "properties": {
+                                                "status": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "expression": {
+                                                            "type": "string",
+                                                            "enum": [
+                                                                ""
+                                                            ]
+                                                        },
+                                                        "type": {
+                                                            "type": "string",
+                                                            "enum": [
+                                                                "expression"
+                                                            ]
+                                                        },
+                                                        "status": {
+                                                            "type": "string",
+                                                            "enum": [
+                                                                "complete"
+                                                            ]
+                                                        },
+                                                        "value": {
+                                                            "type": "string",
+                                                            "enum": [
+                                                                ""
+                                                            ]
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "expression",
+                                                        "type",
+                                                        "status",
+                                                        "value"
+                                                    ]
+                                                }
+                                            },
+                                            "required": [
+                                                "status"
+                                            ]
+                                        },
+                                        "primitiveID": {
+                                            "type": "string"
+                                        },
+                                        "location": {
+                                            "type": "object",
+                                            "properties": {
+                                                "x": {
+                                                    "type": [
+                                                        "number",
+                                                        "integer"
+                                                    ]
+                                                },
+                                                "y": {
+                                                    "type": [
+                                                        "number",
+                                                        "integer"
+                                                    ]
+                                                }
+                                            },
+                                            "required": [
+                                                "x",
+                                                "y"
+                                            ]
+                                        },
+                                        "initPosition": {
+                                            "type": "object",
+                                            "properties": {
+                                                "x": {
+                                                    "type": "number",
+                                                    "enum": [
+                                                        0.5
+                                                    ]
+                                                },
+                                                "y": {
+                                                    "type": [
+                                                        "number",
+                                                        "integer"
+                                                    ]
+                                                }
+                                            },
+                                            "required": [
+                                                "x",
+                                                "y"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "primitiveName",
+                                        "type",
+                                        "properties",
+                                        "primitiveID",
+                                        "location"
+                                    ]
+                                }
+                            },
+                            "layout": {
+                                "type": "object",
+                                "properties": {
+                                    "x": {
+                                        "type": [
+                                            "number",
+                                            "integer"
+                                        ]
+                                    },
+                                    "y": {
+                                        "type": [
+                                            "number",
+                                            "integer"
+                                        ]
+                                    },
+                                    "height": {
+                                        "type": "integer",
+                                        "enum": [
+                                            90,
+                                            21,
+                                            91,
+                                            154,
+                                            148
+                                        ]
+                                    },
+                                    "width": {
+                                        "type": "integer",
+                                        "enum": [
+                                            90,
+                                            21,
+                                            76,
+                                            91,
+                                            156,
+                                            294
+                                        ]
+                                    }
+                                },
+                                "required": [
+                                    "x",
+                                    "y",
+                                    "height",
+                                    "width"
+                                ]
+                            },
+                            "title": {
+                                "type": "string"
+                            },
+                            "extensionName": {
+                                "type": "string"
+                            },
+                            "isTemplate": {
+                                "type": "boolean"
+                            },
+                            "name": {
+                                "type": "string"
+                            },
+                            "tempName": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "primitiveID",
+                            "primitiveName",
+                            "properties",
+                            "nodeTitle",
+                            "initPorts",
+                            "layout"
+                        ]
+                    }
+                },
+                "edges": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "bends": {
+                                "type": "array",
+                                "items": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": [
+                                            "integer",
+                                            "number"
+                                        ]
+                                    }
+                                }
+                            },
+                            "sourceNode": {
+                                "type": "string",
+                                "enum": [
+                                    "eeTapConnector_14",
+                                    "eeStation_4",
+                                    "eeCableLine6Kv_19",
+                                    "eeCableLine6Kv_21",
+                                    "eeCableLine6Kv_15",
+                                    "eeCableLine6Kv_20",
+                                    "eeCableLine6Kv_16",
+                                    "eeTapConnector_11",
+                                    "eeSubstation_28",
+                                    "eeTapConnector_12",
+                                    "eeTapConnector_13",
+                                    "eeTapConnector_9",
+                                    "eeTapConnector_7",
+                                    "eeCableLine6Kv_18",
+                                    "eeTapConnector_8",
+                                    "eeTapConnector_10",
+                                    "eeCableLine6Kv_17",
+                                    "eeCableLine6Kv_14"
+                                ]
+                            },
+                            "sourcePort": {
+                                "type": "string",
+                                "enum": [
+                                    "eeTapConnector_14_ioPort1",
+                                    "eeStation_4_outPort22",
+                                    "eeCableLine6Kv_19_outPort22",
+                                    "eeCableLine6Kv_21_outPort22",
+                                    "eeCableLine6Kv_15_outPort22",
+                                    "eeCableLine6Kv_20_outPort22",
+                                    "eeCableLine6Kv_16_outPort22",
+                                    "eeTapConnector_11_ioPort1",
+                                    "eeSubstation_28_outPort22",
+                                    "eeTapConnector_12_ioPort1",
+                                    "eeTapConnector_13_ioPort1",
+                                    "eeTapConnector_9_ioPort1",
+                                    "eeTapConnector_7_ioPort1",
+                                    "eeCableLine6Kv_18_outPort22",
+                                    "eeTapConnector_8_ioPort1",
+                                    "eeTapConnector_10_ioPort1",
+                                    "eeCableLine6Kv_17_outPort22",
+                                    "eeCableLine6Kv_14_outPort22"
+                                ]
+                            },
+                            "targetNode": {
+                                "type": "string"
+                            },
+                            "targetPort": {
+                                "type": "string"
+                            },
+                            "extensionName": {
+                                "type": "string",
+                                "enum": [
+                                    "ExtensionCommonPrimitives"
+                                ]
+                            },
+                            "primitiveName": {
+                                "type": "string",
+                                "enum": [
+                                    "SimpleEdge"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "bends",
+                            "sourceNode",
+                            "sourcePort",
+                            "targetNode",
+                            "targetPort",
+                            "extensionName",
+                            "primitiveName"
+                        ]
+                    }
+                },
+                "groups": {
+                    "type": "array",
+                    "items": {
+                        "items": {}
+                    }
+                }
+            },
+            "required": [
+                "nodes",
+                "edges",
+                "groups"
+            ]
+        }
+    },
+    "required": [
+        "graph"
+    ]
+}
+

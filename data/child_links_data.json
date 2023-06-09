@@ -1,0 +1,124 @@
+{
+    "eeTapConnector_74": {
+        "eeSubstation_157": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_157",
+            "Name": "\"Салманов\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        },
+        "eeSubstation_156": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_156",
+            "Name": "\"Салманов\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        },
+        "eeSubstation_153": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_153",
+            "Name": "\"Норкин\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        },
+        "eeSubstation_152": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_152",
+            "Name": "\"Норкин\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        }
+    },
+    "eeTapConnector_75": {
+        "eeRu_61": {
+            "primitiveName": "eeRu",
+            "primitiveID": "eeRu_61",
+            "Name": "\"ДНС-1\"",
+            "description": "",
+            "object_type": "\"РУ 6 кВ\""
+        },
+        "eeRu_64": {
+            "primitiveName": "eeRu",
+            "primitiveID": "eeRu_64",
+            "Name": "\"КНС-1\"",
+            "description": "",
+            "object_type": "\"РУ 6 кВ\""
+        }
+    },
+    "eeTapConnector_76": {
+        "eeSubstation_151": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_151",
+            "Name": "\"Кузьмин\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        },
+        "eeSubstation_150": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_150",
+            "Name": "\"Кузьмин\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        },
+        "eeSubstation_155": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_155",
+            "Name": "\"Рынковой\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        },
+        "eeSubstation_154": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_154",
+            "Name": "\"Рынковой\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        }
+    },
+    "eeTapConnector_77": {
+        "eeSubstation_149": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_149",
+            "Name": "\"Абазаров\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        },
+        "eeSubstation_148": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_148",
+            "Name": "\"Абазаров\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        }
+    },
+    "eeTapConnector_78": {
+        "eeSubstation_157": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_157",
+            "Name": "\"Салманов\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        },
+        "eeSubstation_156": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_156",
+            "Name": "\"Салманов\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        },
+        "eeSubstation_153": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_153",
+            "Name": "\"Норкин\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        },
+        "eeSubstation_152": {
+            "primitiveName": "eeSubstation",
+            "primitiveID": "eeSubstation_152",
+            "Name": "\"Норкин\"",
+            "description": "",
+            "object_type": "\"ПС 35/6 кВ\""
+        }
+    }
+}

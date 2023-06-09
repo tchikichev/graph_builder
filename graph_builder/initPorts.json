@@ -1,0 +1,20 @@
+[
+    {
+        "primitiveName": "inPort1",
+        "type": "IN",
+        "properties": {
+            "status": {"expression":"","type":"expression","status":"complete","value":""            }
+        },
+        "primitiveID": "",
+        "location": {"x":0.5,"y":0}
+    },
+    {
+        "primitiveName": "outPort1",
+        "type": "OUT",
+        "properties": {
+            "status": {"expression":"","type":"expression","status":"complete","value":""            }
+        },
+        "primitiveID": "",
+        "location": {"x":0.5,"y":1}
+    }
+]

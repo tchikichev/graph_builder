@@ -1,0 +1,154 @@
+{
+   "ecn": {
+      "properties": {
+         "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "normallylnService": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "Name": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "object_type": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "current": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "kV": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "power": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "ecnFreq": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "ecnLoad": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "measured_kWh": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "model_kWh": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "netFreq": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         }
+      }
+   },
+   "line": {
+      "properties": {
+         "description": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "Name": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "object_type": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "model": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "zagruzka": {
+            "expression": "",
+            "type": "expression",
+            "status": "complete",
+            "value": ""
+         },
+         "current": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "kV": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "power": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "measured_kWh": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         },
+         "model_kWh": {
+            "expression": "",
+            "status": "completed",
+            "type": "expression",
+            "value": ""
+         }
+      }
+   }
+}

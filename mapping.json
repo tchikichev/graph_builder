@@ -1,0 +1,114 @@
+{
+    "eeTapConnector_74eeSubstation_157": {
+        "parentID": "eeTapConnector_74",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_157",
+        "Name": "Салманов",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_74eeSubstation_156": {
+        "parentID": "eeTapConnector_74",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_156",
+        "Name": "Салманов",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_74eeSubstation_153": {
+        "parentID": "eeTapConnector_74",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_153",
+        "Name": "Норкин",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_74eeSubstation_152": {
+        "parentID": "eeTapConnector_74",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_152",
+        "Name": "Норкин",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_75eeRu_61": {
+        "parentID": "eeTapConnector_75",
+        "primitiveName": "eeRu",
+        "primitiveID": "eeRu_61",
+        "Name": "ДНС-1",
+        "object_type": "РУ 6 кВ"
+    },
+    "eeTapConnector_75eeRu_64": {
+        "parentID": "eeTapConnector_75",
+        "primitiveName": "eeRu",
+        "primitiveID": "eeRu_64",
+        "Name": "КНС-1",
+        "object_type": "РУ 6 кВ"
+    },
+    "eeTapConnector_76eeSubstation_151": {
+        "parentID": "eeTapConnector_76",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_151",
+        "Name": "Кузьмин",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_76eeSubstation_150": {
+        "parentID": "eeTapConnector_76",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_150",
+        "Name": "Кузьмин",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_76eeSubstation_155": {
+        "parentID": "eeTapConnector_76",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_155",
+        "Name": "Рынковой",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_76eeSubstation_154": {
+        "parentID": "eeTapConnector_76",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_154",
+        "Name": "Рынковой",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_77eeSubstation_149": {
+        "parentID": "eeTapConnector_77",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_149",
+        "Name": "Абазаров",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_77eeSubstation_148": {
+        "parentID": "eeTapConnector_77",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_148",
+        "Name": "Абазаров",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_78eeSubstation_157": {
+        "parentID": "eeTapConnector_78",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_157",
+        "Name": "Салманов",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_78eeSubstation_156": {
+        "parentID": "eeTapConnector_78",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_156",
+        "Name": "Салманов",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_78eeSubstation_153": {
+        "parentID": "eeTapConnector_78",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_153",
+        "Name": "Норкин",
+        "object_type": "ПС 35/6 кВ"
+    },
+    "eeTapConnector_78eeSubstation_152": {
+        "parentID": "eeTapConnector_78",
+        "primitiveName": "eeSubstation",
+        "primitiveID": "eeSubstation_152",
+        "Name": "Норкин",
+        "object_type": "ПС 35/6 кВ"
+    }
+}
